@@ -1,0 +1,86 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.cd-02-14 {
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 14;
+}
+
+.cd-01-05 {
+  position: relative;
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.cd-01-06 {
+  position: relative;
+
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.cd-02-06 {
+  position: relative;
+
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+.cd-02-07 {
+  position: relative;
+
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+.cd-02-09 {
+  position: relative;
+
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
+
+.cd-07-14 {
+  position: relative;
+
+  grid-column-start: 7;
+  grid-column-end: 14;
+}
+
+.cd-07-15 {
+  position: relative;
+
+  grid-column-start: 7;
+  grid-column-end: 15;
+}
+
+.cd-11-14 {
+  position: relative;
+
+  grid-column-start: 11;
+  grid-column-end: 14;
+}
+
+.rd-1-3 {
+  position: relative;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.a-bot {
+  align-self: end;
+}
+
+.a-top {
+  align-self: start;
+}

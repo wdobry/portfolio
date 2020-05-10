@@ -1,0 +1,26 @@
+@import url("https://use.typekit.net/rpq3ajh.css");
+
+:root {
+  --font-primary: titling-gothic-fb, sans-serif;
+  --font-secondary: input-sans, sans-serif;
+  --module: calc(100vw / 14);
+}
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
