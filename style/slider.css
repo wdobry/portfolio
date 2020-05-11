@@ -16,6 +16,14 @@
   background: linear-gradient(135deg, #e1e1e1 0%, rgba(225, 225, 225, 0) 100%);
 }
 
+@media only screen and (max-width: 768px) {
+  .flickity-viewport {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background: none;
+  }
+}
+
 .flickity-slider {
   position: absolute;
   width: 100%;
@@ -86,6 +94,12 @@
   transform: translateY(-50%);
 }
 
+@media only screen and (max-width: 768px) {
+  .flickity-prev-next-button {
+    display: none;
+  }
+}
+
 .flickity-prev-next-button.previous {
   cursor: w-resize;
   left: 0;
@@ -125,6 +139,13 @@
   list-style: none;
   text-align: right;
   line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .flickity-page-dots {
+    left: 0.8em;
+    bottom: 0.5em;
+  }
 }
 
 .flickity-rtl .flickity-page-dots {
